@@ -1,0 +1,1574 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  box-sizing: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* start of first page  */
+div {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.img1 {
+  background: linear-gradient(to top, #1775bd, transparent),
+    url('./mountains1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: static;
+}
+
+.logo {
+  position: relative;
+  left: 15%;
+  top: 10px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.heading1 {
+  color: #0a2a43;
+  position: relative;
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 10%;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 20%;
+  margin-bottom: 10px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: underline;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  text-transform: uppercase;
+}
+/*  end of first page */
+
+/* start of navbar 2  */
+.navbar2 {
+  min-height: 100px;
+
+  background-color: aliceblue;
+}
+
+.logo2 {
+  position: relative;
+  left: 15%;
+  top: 20px;
+  width: 80px;
+  border-radius: 50%;
+}
+.links2 {
+  float: right;
+  list-style-type: none;
+  top: 25px;
+  right: 20%;
+}
+.links2 li {
+  display: inline-block;
+  margin-top: 6%;
+}
+.links2 li a {
+  text-decoration: underline;
+
+  color: #0a2a43;
+  /* padding: 5px 20px; */
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  text-transform: uppercase;
+}
+
+.heading2 {
+  color: #0a2a43;
+  position: relative;
+  left: 23%;
+  top: -65px;
+}
+
+/*  end of navbar 2 */
+
+/* start of second page  */
+
+.img2 {
+  background: linear-gradient(to top, #020f19, transparent),
+    url('./mountains2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading3 {
+  color: rgb(63, 51, 51);
+  position: relative;
+
+  left: 20%;
+  font-size: 80px;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.span {
+  font-size: 130px;
+}
+.span2 {
+  position: relative;
+  top: 25px;
+  right: 25px;
+  color: #0a2a43;
+}
+
+.para {
+  color: white;
+  text-align: center;
+  text-indent: 30px;
+  font-weight: 600;
+}
+
+*/
+
+/* start of navbar2 page */
+
+.navbar2 {
+  min-height: 100px;
+
+  background-color: aliceblue;
+}
+
+.heading3 {
+  color: rgb(63, 51, 51);
+  position: relative;
+  text-transform: uppercase;
+  left: 20%;
+  font-size: 80px;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.span {
+  font-size: 130px;
+}
+.span2 {
+  position: relative;
+  font-size: 50px;
+  top: 45px;
+  right: 25px;
+  color: #0a2a43;
+}
+.para2 {
+  color: #0a2a43;
+  text-align: left;
+  text-indent: 10px;
+  font-weight: 600;
+  position: relative;
+  bottom: 90px;
+
+  left: 650px;
+  display: inline-block;
+}
+
+/* end of navbar3page */
+
+/* start of third page */
+.img3 {
+  background: linear-gradient(to top, #0b304b, transparent),
+    url('./mountains3.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background: linear-gradient(to top, #1775bd, transparent);
+}
+
+.brand a {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+li > a {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+li::after {
+  content: '';
+  width: 0rem;
+  height: 0.15rem;
+  background-color: #fff;
+  display: block;
+  border-radius: 0.2rem;
+  margin: 0.2rem auto 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+  width: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+
+  background: linear-gradient(180deg, #071a41 0%, #0c1a28 100%);
+}
+.special {
+  margin-left: 100px;
+}
+.special li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#span2 {
+  background-color: rgb(77, 74, 74);
+  color: #071a41;
+  text-decoration: underline;
+}
+
+/* schedule start */
+.schedule {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  position: relative;
+
+  left: 10%;
+  margin-top: 70px;
+  min-height: 300px;
+  width: 40%;
+}
+.heading4 {
+  color: #052741;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+article {
+  color: black;
+}
+.para5 {
+  line-height: 60px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.span3 {
+  text-indent: 50px;
+  margin-left: 30%;
+}
+/* 
+schedule ends */
+
+/* footer start */
+
+footer {
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  color: rgb(15, 1, 1);
+  text-align: center;
+  background-color: #052741;
+}
+
+.logo3 {
+  position: relative;
+  right: 30%;
+  top: 15px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  bottom: 60px;
+  right: 250px;
+  position: relative;
+}
+
+.para4 {
+  position: relative;
+  bottom: 100px;
+  left: 20%;
+  text-transform: uppercase;
+  color: rgb(253, 248, 248);
+}
+
+/* end  third page */
+
+@media all and (max-width: 390px) and (min-width: 320px) {
+  /* start of first page  */
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: relative;
+    left: 10%;
+    width: 60px;
+  }
+  .heading1 {
+    position: relative;
+    font-size: 3rem;
+    margin-top: 40%;
+  }
+
+  ul {
+    margin-top: 0px;
+    position: relative;
+    left: 30%;
+    bottom: 40px;
+  }
+
+  ul li a {
+    padding: 5px 0px;
+    font-size: 16px;
+  }
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+
+  .logo2 {
+    position: relative;
+    left: 10%;
+    top: 20px;
+    width: 70px;
+  }
+  .links2 {
+    position: relative;
+    top: 30px;
+  }
+  .links2 li a {
+    position: relative;
+    right: 20%;
+  }
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 32%;
+    top: -89px;
+    font-size: 29px;
+  }
+
+  /*  end of navbar 2 */
+
+  /* start of second page  */
+
+  .heading3 {
+    position: relative;
+    left: 19px;
+  }
+  .span {
+    font-size: 80px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 9px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 48px;
+    right: 188px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 40px;
+    width: 70%;
+  }
+  .heading4 {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 25px;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+
+  /* footer start */
+
+  footer {
+    position: absolute;
+    height: 70px;
+  }
+
+  .logo3 {
+    position: relative;
+    right: 40%;
+
+    width: 55px;
+  }
+
+  h2 {
+    bottom: 27px;
+    font-size: 12px;
+    right: 63px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+
+    bottom: 42px;
+    font-size: 8px;
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 480px) and (min-width: 391px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 3rem;
+    margin-top: 50%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 35px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 13px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 36%;
+    top: -56px;
+    font-size: 17px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 19px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 70%;
+  }
+  .heading4 {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 40px;
+    font-size: 15px;
+    right: 75px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 42px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 600px) and (min-width: 481px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 4rem;
+    margin-top: 39%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 35px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 13px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 32%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 19px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 60%;
+  }
+  .heading4 {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 40px;
+    font-size: 18px;
+    right: 104px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 42px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 768px) and (min-width: 601px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 5rem;
+    margin-top: 39%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 35px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 16px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 29%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 19px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 12px;
+    position: relative;
+    bottom: 25px;
+    left: 201px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 49%;
+  }
+  .heading4 {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 45px;
+    font-size: 22px;
+    right: 144px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 72px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 900px) and (min-width: 769px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 5rem;
+    margin-top: 35%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 20px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 18px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 26%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 87px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 12px;
+    position: relative;
+    bottom: 48px;
+    left: 369px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 41%;
+  }
+  .heading4 {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 41px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 45px;
+    font-size: 22px;
+    right: 197px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 72px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 1024px) and (min-width: 901px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 6rem;
+    margin-top: 25%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 20px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 18px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 24%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 87px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 15px;
+    position: relative;
+    bottom: 57px;
+    left: 447px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 41%;
+  }
+  .heading4 {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 41px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 45px;
+    font-size: 22px;
+    right: 252px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 72px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 1024px) and (min-width: 901px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 70px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 5rem;
+    margin-top: 25%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 17px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 20px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 18px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 24%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 87px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 15px;
+    position: relative;
+    bottom: 57px;
+    left: 447px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 41%;
+  }
+  .heading4 {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 41px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 45px;
+    font-size: 22px;
+    right: 252px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 72px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
+
+@media all and (max-width: 1200px) and (min-width: 1024px) {
+  /* start of first page  */
+
+  div {
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    width: 85px;
+  }
+
+  .heading1 {
+    position: relative;
+    font-size: 7rem;
+    margin-top: 29%;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  ul li a {
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 5px 0px;
+    font-size: 19px;
+  }
+  */
+
+  /* end of first page  */
+
+  /* start of navbar 2  */
+.logo2 {
+    left: 5%;
+    top: 10px;
+    width: 80px;
+  }
+
+  .links2 {
+    position: relative;
+    top: 20px;
+    left: 7%;
+    margin-bottom: 0;
+  }
+
+  .links2 li {
+    display: inline-block;
+    margin-top: 0%;
+  }
+  .links2 li a {
+    font-size: 18px;
+  }
+
+  .heading2 {
+    position: relative;
+    left: 24%;
+    top: -52px;
+    font-size: 22px;
+  }
+  /*  end of navbar 2 */
+  /* start of second page  */
+  .heading3 {
+    position: relative;
+    left: 87px;
+  }
+  .span {
+    font-size: 100px;
+  }
+  .span2 {
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    right: 25px;
+    color: #0a2a43;
+  }
+
+  .para {
+    color: #d4dfe7;
+  }
+
+  /* end of second page */
+
+  /* start of navbar3page */
+  .para2 {
+    font-size: 15px;
+    position: relative;
+    bottom: 57px;
+    left: 447px;
+  }
+
+  /* end of navbar3page */
+
+  /* start of third page */
+
+  .special li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+    left: -53px;
+    text-transform: uppercase;
+  }
+
+  /* schedule start */
+  .schedule {
+    height: 100px;
+    width: 37%;
+  }
+  .heading4 {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  .para5 {
+    line-height: 40px;
+    margin-left: 41px;
+    margin-top: 20px;
+  }
+  .span3 {
+    margin-left: 10%;
+  }
+  /* 
+schedule ends */
+  /* footer start */
+
+  footer {
+    min-height: 100px;
+  }
+  .logo3 {
+    position: relative;
+    right: 40%;
+    width: 70px;
+  }
+
+  h2 {
+    bottom: 49px;
+    font-size: 22px;
+    right: 299px;
+    position: relative;
+  }
+
+  .para4 {
+    position: relative;
+    bottom: 72px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(253, 248, 248);
+  }
+
+  /* end third page */
+}
